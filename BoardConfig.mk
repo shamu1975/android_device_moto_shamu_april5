@@ -155,5 +155,8 @@ TARGET_FS_CONFIG_GEN += device/moto/shamu/config.fs
 # Recovery
 LZMA_RAMDISK_TARGETS := recovery
 
+# Binder API version
+TARGET_USES_64_BIT_BINDER := true
+
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
